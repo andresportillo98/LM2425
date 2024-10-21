@@ -1,0 +1,12 @@
+h3 {
+    text-align: left;
+    background-color: aquamarine;
+}
+.centrado {
+text-align: center;
+background-color: bisque;
+}
+#derecha {
+    text-align: right;
+    background-color: azure;
+}

@@ -1,0 +1,38 @@
+Respuestas ejercicio 1:
+- ¿Qué diferencias encontraste entre los tres métodos de aplicar CSS?
+La principal diferencia es, por razones obvias, el uso de CSS dentro del documento html
+(CSS en línea e interno) y CSS externo. Luego, respecto al código, hay diferencias entre
+las diferentes versiones a la hora de aplicar el CSS (tener que crear una etiqueta style
+dentro de la etiqueta head; definir estilos dentro de la etiqueta que deseemos aplicar estilos;
+crear un documento externo en el que se recogerán todos los estilos).
+- ¿Qué ventajas ves en usar CSS externo frente a los otros métodos?
+La principal ventaja que encuentro es la comodidad de tener todo el código que permite realizar modificaciones
+visuales al archivo html dentro de un mismo archivo .css. Además, en opinión personal,
+veo el código más "limpio" sin usar CSS en línea o interno, que usando CSS externo.
+
+Respuestas ejercicio 2:
+- ¿Por qué usarías una clase en lugar de un id?
+Usaría una clase si deseo modificar con un mismo estilo, varios elementos iguales.
+Por ejemplo, deseo que todos mis párrafos tengan el mismo estilo.
+- Si cambias el estilo de h2 en el CSS, ¿cómo afecta eso a otros encabezados h2 en la página?
+Todos los h2 se adaptarían a los cambios realizados en el css.
+
+Respuestas Ejercicio 3:
+- ¿Qué diferencias hay entre alinear texto usando CSS y hacerlo con HTML?
+La primera, el tener que usar ciertas etiquetas dentro del documento html, que podríamos
+ahorrarnos usando CSS. Además, CSS nos permite un mayor control del estilo visual que 
+queramos imprimir en nuestro documento html, pudiendo escoger qué etiquetas queremos aplicar
+estilos.
+¿Cómo cambiarías los márgenes o padding para mejorar el diseño de los párrafos?
+Crearía clases o id para los elementos a los que queremos modificar el margen y el padding.
+Despues, reflejaría los márgenes y padding dentro del CSS para los elementos que deseo aplicar.
+Respecto a los márgenes, podemos modificar los márgenes superiores e inferiores y los laterales.
+Respecto al padding, podemos aplicar un tamaño "general" o aplicarlo como con el márgen.
+
+Respuestas Ejercicio 4:
+- ¿Por qué los selectores combinados son útiles?
+Son útiles pues nos permiten aplicar el mismo estilo a diferentes elementos, teniendo como 
+ventaja que no duplicará el código.
+- ¿Cómo afecta la estructura HTML a los selectores que puedes usar?
+Dependiendo de la estructura HTML que tengamos, podremos emplear distintos selectores, los
+cuales aplicarán ciertos estilos.

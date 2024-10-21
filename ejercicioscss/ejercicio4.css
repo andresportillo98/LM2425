@@ -1,0 +1,8 @@
+div p {
+    text-align: center;
+    color: peru;
+}
+.resaltado {
+    background-color: yellow;
+    font-style: italic;
+}
